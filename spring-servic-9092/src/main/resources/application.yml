@@ -1,0 +1,11 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: microservice-9092-srvic3
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9999/eureka/
