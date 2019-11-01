@@ -5,6 +5,11 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/eureka-server" />
+    <file type="web" url="file://$PROJECT_DIR$/eureka-server-8761" />
+    <file type="web" url="file://$PROJECT_DIR$/service-feign" />
+    <file type="web" url="file://$PROJECT_DIR$/service-hi" />
+    <file type="web" url="file://$PROJECT_DIR$/service-hi2" />
+    <file type="web" url="file://$PROJECT_DIR$/service-ribbon" />
     <file type="web" url="file://$PROJECT_DIR$/spring-servic-9090" />
     <file type="web" url="file://$PROJECT_DIR$/spring-servic-9091" />
     <file type="web" url="file://$PROJECT_DIR$/spring-servic-9092" />
@@ -13,6 +18,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-8761/pom.xml" />
       </list>
     </option>
   </component>

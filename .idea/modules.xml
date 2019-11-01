@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-8761/eureka-server-8761.iml" filepath="$PROJECT_DIR$/eureka-server-8761/eureka-server-8761.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hi/service-hi.iml" filepath="$PROJECT_DIR$/service-hi/service-hi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hi2/service-hi2.iml" filepath="$PROJECT_DIR$/service-hi2/service-hi2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-servic-9090/spring-servic-9090.iml" filepath="$PROJECT_DIR$/spring-servic-9090/spring-servic-9090.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-servic-9091/spring-servic-9091.iml" filepath="$PROJECT_DIR$/spring-servic-9091/spring-servic-9091.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-servic-9092/spring-servic-9092.iml" filepath="$PROJECT_DIR$/spring-servic-9092/spring-servic-9092.iml" />

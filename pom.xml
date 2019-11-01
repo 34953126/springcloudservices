@@ -12,17 +12,22 @@
     <module>eureka-server</module>
     <module>spring-servic-9091</module>
     <module>spring-servic-9092</module>
+    <module>eureka-server-8761</module>
+    <module>service-hi</module>
+    <module>service-ribbon</module>
+    <module>service-hi2</module>
+    <module>service-feign</module>
   </modules>
   <packaging>pom</packaging>
 
   <name>springboot Maven Webapp</name>
-  <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <maven.compiler.source>1.7</maven.compiler.source>
+      <maven.compiler.target>1.7</maven.compiler.target>
+      <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
   </properties>
 
   <parent>
@@ -44,6 +49,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <build>
     <finalName>springboot</finalName>
