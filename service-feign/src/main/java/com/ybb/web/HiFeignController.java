@@ -17,6 +17,7 @@ public class HiFeignController {
 
     @GetMapping(value = "/hi")
     public String sayHi(@RequestParam String name){
+        System.out.println("Feign 测试中---");
         return schedualServiceHi.sayHiFromClientOne(name);
     }
 

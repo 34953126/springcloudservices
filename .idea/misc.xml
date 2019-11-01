@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/service-hi" />
     <file type="web" url="file://$PROJECT_DIR$/service-hi2" />
     <file type="web" url="file://$PROJECT_DIR$/service-ribbon" />
+    <file type="web" url="file://$PROJECT_DIR$/service-zuul" />
     <file type="web" url="file://$PROJECT_DIR$/spring-servic-9090" />
     <file type="web" url="file://$PROJECT_DIR$/spring-servic-9091" />
     <file type="web" url="file://$PROJECT_DIR$/spring-servic-9092" />

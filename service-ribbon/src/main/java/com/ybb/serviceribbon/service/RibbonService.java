@@ -21,6 +21,7 @@ public class RibbonService {
      */
     @HystrixCommand(fallbackMethod = "hiError")
     public String hiService(String name){
+        System.out.println("service-ribbon 测试中......");
         return restTemplate.getForObject("http://service-hi/hi?name="+name,String.class);
     }
 

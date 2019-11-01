@@ -79,6 +79,13 @@
         <processorPath useClasspath="true" />
         <module name="service-feign" />
       </profile>
+      <profile default="false" name="Annotation profile for service-zuul" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="service-zuul" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.7" />
@@ -87,6 +94,7 @@
       <module name="service-hi" target="1.7" />
       <module name="service-hi2" target="1.7" />
       <module name="service-ribbon" target="1.7" />
+      <module name="service-zuul" target="1.7" />
       <module name="spring-servic-9090" target="1.7" />
       <module name="spring-servic-9091" target="1.7" />
       <module name="spring-servic-9092" target="1.7" />
