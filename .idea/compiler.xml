@@ -86,8 +86,16 @@
         <processorPath useClasspath="true" />
         <module name="service-zuul" />
       </profile>
+      <profile default="false" name="Annotation profile for config-srever" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="config-srever" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-srever" target="1.7" />
       <module name="eureka-server" target="1.7" />
       <module name="eureka-server-8761" target="1.7" />
       <module name="service-feign" target="1.7" />

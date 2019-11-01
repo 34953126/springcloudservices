@@ -18,6 +18,7 @@
     <module>service-hi2</module>
     <module>service-feign</module>
     <module>service-zuul</module>
+    <module>config-srever</module>
   </modules>
   <packaging>pom</packaging>
 
