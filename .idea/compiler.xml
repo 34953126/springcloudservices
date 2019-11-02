@@ -93,8 +93,16 @@
         <processorPath useClasspath="true" />
         <module name="config-srever" />
       </profile>
+      <profile default="false" name="Annotation profile for config-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="config-client" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.7" />
       <module name="config-srever" target="1.7" />
       <module name="eureka-server" target="1.7" />
       <module name="eureka-server-8761" target="1.7" />
