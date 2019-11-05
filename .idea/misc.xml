@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/config-srever" />
     <file type="web" url="file://$PROJECT_DIR$/eureka-server" />
     <file type="web" url="file://$PROJECT_DIR$/eureka-server-8761" />
+    <file type="web" url="file://$PROJECT_DIR$/eureka-server-config-8889" />
     <file type="web" url="file://$PROJECT_DIR$/service-feign" />
     <file type="web" url="file://$PROJECT_DIR$/service-hi" />
     <file type="web" url="file://$PROJECT_DIR$/service-hi2" />

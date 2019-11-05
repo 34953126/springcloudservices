@@ -20,6 +20,7 @@
     <module>service-zuul</module>
     <module>config-srever</module>
     <module>config-client</module>
+    <module>eureka-server-config-8889</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -100,12 +100,20 @@
         <processorPath useClasspath="true" />
         <module name="config-client" />
       </profile>
+      <profile default="false" name="Annotation profile for eureka-server-config-8889" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="eureka-server-config-8889" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-client" target="1.7" />
       <module name="config-srever" target="1.7" />
       <module name="eureka-server" target="1.7" />
       <module name="eureka-server-8761" target="1.7" />
+      <module name="eureka-server-config-8889" target="1.7" />
       <module name="service-feign" target="1.7" />
       <module name="service-hi" target="1.7" />
       <module name="service-hi2" target="1.7" />
